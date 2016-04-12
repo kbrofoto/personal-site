@@ -1,0 +1,49 @@
+
+
+html,
+body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  color: black;
+  }
+
+
+.text{
+    position: absolute;;
+    width: 400px;
+    padding: 30px;
+    left:0px;
+    top: 300px;
+    z-index: +1;
+    color: #504F4F;
+    }
+
+.portfolio-nav{
+  text-align: center;
+  }
+
+
+  li {
+    display: inline;
+    width: 60px;
+    color: black;
+    padding: 75px;
+    }
+
+  li a:hover {
+  color: grey;
+  text-decoration: none;
+  }
+
+ .site-nav{
+   text-align: center;
+   text-decoration: none;
+ }
+
+
+
+
+
+  /*links*/

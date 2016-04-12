@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>KBROFOTO KYLE</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="stylesheet" type="text/css" href="flexslider.css">
+</head>
+  <body class="layout-portfolio">
+    <header class="header">
+      <div class="container">
+        <h1><img src="LOGO_BLACK_revisit.png" alt="KCB" style="width:450px;"></H1>
+          <ul class="site-nav">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="commercial.html">COMMMERCIAL</a></li>
+            <li><a href="projects.html">PROJECTS</a></li>
+          </ul>
+        </div>
+      </header>
+
+  <main>
+    <div class="flexslider">
+      <ul class="slides">
+        <li>
+          <img src="PORT_pres64.jpg" style="width:500px;" />
+        </li>
+        <li>
+          <img src="PORT_pres02.jpg" style="width:500px" />
+        </li>
+        <li>
+          <img src="PORT_pres03.jpg" style="width:500px" />
+        </li>
+        <li>
+          <img src="PORT_pres14.jpg" style="width:500px" />
+        </li>
+      </ul>
+    </div>
+  </main>
+
+    <footer>
+    </footer>
+    <script src="https://code.jquery.com/jquery-1.12.2.min.js"></script>
+    <script src="jquery.flexslider.js"></script>
+    <script>
+      // Flexslider JS Code Here
+      $(window).load(function() {
+        $('.flexslider').flexslider({
+          animation: "slide"
+        });
+      });
+
+    </script>
+
+</body>
+</html>
